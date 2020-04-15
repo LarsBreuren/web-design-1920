@@ -1,18 +1,34 @@
 <%- include('partials/head') %>
-  <h1>Van welke maand wil je de planning weten?</h1>
-  <main>
-    <a href="jaarschema">Januari</a>
-    <a href="jaarschema">Februari</a>
-    <a href="jaarschema">Maart</a>
-    <a href="jaarschema">April</a>
-    <a href="jaarschema">Mei</a>
-    <a href="jaarschema">juni</a>
-    <a href="jaarschema">Juli</a>
-    <a href="jaarschema">Augustus</a>
-    <a href="jaarschema">September</a>
-    <a href="jaarschema">oktober</a>
-    <a href="jaarschema">November</a>
-    <a href="jaarschema">December</a>
-  </main>
+<h1>Van welke maand wil je de planning weten?</h1>
 
-  <%- include('partials/footer') %>
+<div class="form-container">
+  <form action="maandactiviteit" method="POST">
+    <input type="radio" id="januari" name="maand" value="januari">
+    <label for="januari">Januari</label><br>
+    <input type="radio" id="februari" name="maand" value="februari">
+    <label for="februari">februari</label><br>
+    <input type="radio" id="maart" name="maand" value="maart">
+    <label for="maart">maart</label><br>
+    <input type="radio" id="april" name="maand" value="april">
+    <label for="april">april</label><br>
+    <input type="radio" id="mei" name="maand" value="mei">
+    <label for="mei">mei</label><br>
+    <input type="radio" id="juni" name="maand" value="juni">
+    <label for="juni">juni</label><br>
+    <input type="radio" id="juli" name="maand" value="juli">
+    <label for="juli">juli</label><br>
+    <input type="radio" id="augustus" name="maand" value="augustus">
+    <label for="augustus">augustus</label><br>
+    <input type="radio" id="september" name="maand" value="september">
+    <label for="september">september</label><br>
+    <input type="radio" id="oktober" name="maand" value="oktober">
+    <label for="oktober">oktober</label><br>
+    <input type="radio" id="november" name="maand" value="november">
+    <label for="november">november</label><br>
+    <input type="radio" id="december" name="maand" value="december">
+    <label for="december">december</label><br><br>
+    <input type="submit" value="Bekijk maand">
+</div>
+</form>
+
+<%- include('partials/footer') %>

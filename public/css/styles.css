@@ -17,20 +17,32 @@ body {
 }
 
 nav {
-  background-color: #fff;
+  background-color: var(--dark);
+  margin-top: 100px;
+  border: 2px solid var(--light);
 }
 nav ul {
   display: flex;
   justify-content: space-between;
 }
+nav li {
+  list-style: none;
+}
 nav a {
-  color: #000;
+  color: var(--light);
   text-decoration: none;
 }
 nav a:hover{ 
   color: var(--succes);
 }
 
+form {
+  text-align: left;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
 main a {
   color: var(--light);
   text-decoration: none;
