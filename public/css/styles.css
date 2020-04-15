@@ -16,14 +16,29 @@ body {
   text-align: center;
 }
 
-body a {
+nav {
+  background-color: #fff;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+nav a:hover{ 
+  color: var(--succes);
+}
+
+main a {
   color: var(--light);
   text-decoration: none;
   padding: 1em;
   border: 2px solid var(--light);
 }
 
-body a:hover,
+main a:hover,
 main div:hover,
 body a:focus {
   border-color: var(--succes);
