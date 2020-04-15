@@ -12,7 +12,6 @@ No tests done yet, however we discussed some things that might be of interest wh
 The NS website is a good example of a usable website for her. And she would like to see more details in the schedule when filtering.
 
 ## Test 15-4
-Notes:
 kan tekst skippen - > is fijn
 combobox voor maanden selectie dropbox (kan dan tikken).
 handig dat details te tabben en met pijltjes te doen zijn.
@@ -20,6 +19,9 @@ handig dat details te tabben en met pijltjes te doen zijn.
 Leuk systeem
 zwarte achtergrond is fijn (gevoelig voor licht).
 
+Good practice:
+-Korte duidelijke kopjes voor goede opbouw pagina
+-Ze gebruikt veel tabs 
 
 
 
