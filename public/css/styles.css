@@ -39,18 +39,23 @@ nav a:hover{
 form {
   text-align: left;
 }
+#maand {
+  padding: 1em;
+}
 .form-container {
   display: flex;
   justify-content: center;
 }
-main a {
+main a, .button {
   color: var(--light);
   text-decoration: none;
   padding: 1em;
   border: 2px solid var(--light);
+  background-color: var(--dark);
 }
 
 main a:hover,
+.button:hover,
 main div:hover,
 body a:focus {
   border-color: var(--succes);
