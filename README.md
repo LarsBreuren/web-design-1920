@@ -11,6 +11,23 @@ The scheme itself however is very user unfriendly to use even when you're not bl
 No tests done yet, however we discussed some things that might be of interest when designing a website for her.
 The NS website is a good example of a usable website for her. And she would like to see more details in the schedule when filtering.
 
+## Test 15-4
+lijstje gemaakt met vragen
+volgorder van testen gemaakt +live links erbij
+Hele diverse concepten
+
+kan tekst skippen - > is fijn
+combobox voor maanden selectie dropbox (kan dan tikken).
+handig dat details te tabben en met pijltjes te doen zijn.
+Na een paar bezoeken onthoudt ze hoe een site in elkaar zit (aantal tabs)
+
+Leuk systeem
+zwarte achtergrond is fijn (gevoelig voor licht).
+
+Good practice:
+-Korte duidelijke kopjes voor goede opbouw pagina
+-Ze gebruikt veel tabs 
+
 
 
 
