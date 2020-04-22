@@ -16,7 +16,7 @@ app.set('views', 'views');
 
 app.get('/', (req, res) => {
 
-  let locations = ['Anadia', 'Nederland']
+  let locations = ['Anadia', 'Amsterdam']
   let randomLocation = locations[Math.floor(Math.random()*locations.length)];
 
   let event = ['Kracht', 'Baan', 'Herstel', 'Weg']
@@ -47,8 +47,21 @@ app.get('/jaarplan', (req, res) => {
 })
 
 app.post('/maandactiviteit', (req, res) => {
+
+  let locations = ['Anadia', 'Amsterdam', 'Tokyo']
+  let randomLocation = locations[Math.floor(Math.random()*locations.length)];
+  let randomLocation2 = locations[Math.floor(Math.random()*locations.length)];
+
+  let activiteit = ['Wegfietsen', 'Wedstrijd versnelling', 'In het huis', 'Wedstrijd']
+  let activiteitRandom = activiteit[Math.floor(Math.random()*activiteit.length)];
+  let activiteitRandom2 = activiteit[Math.floor(Math.random()*activiteit.length)];
+
   res.render('maandactiviteit', {
     title: 'Maandactiviteit',
+    locatie: randomLocation,
+    locatie2: randomLocation2,
+    activiteit: activiteitRandom,
+    activiteit2: activiteitRandom2,
     maand: req.body.maand
   })
 })
