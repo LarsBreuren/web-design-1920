@@ -17,23 +17,23 @@ volgorde van testen gemaakt +live links erbij
 Hele diverse concepten van iedereen.
 
 Conclusie test:
-- Prototype is goed te scannen, Larissa kan snel door de tekst skippen -> is fijn.
-- Radio buttons voor maanden selectie werken ok, maar een dropdown zou beter zijn omdat ze dan kan typen (is sneller).
-- Handig dat schema details te tabben en met pijltjes te doen zijn, fijne bediening.
-- Na een paar bezoeken onthoudt ze hoe een site in elkaar zit (aantal tabs).
-- Concrete duidelijke headers zijn erg fijn, headers moet ik dus herzien.
-- Fijn dat de achtergrond donker is, Larissa is gevoelig voor licht.
-- Leuk systeem dat je steeds een vraag krijgt om bij je details te komen.
-- Larisse is fan van tabben, site hiervoor dus optimaliseren
+- Prototype is easy to scan, Larissa can quickly skip through the text -> is fine.
+- Radio buttons for months selection work ok, but a dropdown would be better because she can type to navigate (faster).
+- Handy that you can navigate with arrow keys and tabs trough the scedule details
+- After a few visits, she remembers how a site works (number of tabs).
+- Concrete clear headers are very nice, so I have to revise headers.
+- Nice that the background is dark, Larissa is sensitive to light.
+- Question-steps system to get to details works nice and is creative.
+- Larisse is a fan of tabbing, so optimize the site for this
 
 
 ## Aanpassingen na test 15-4
-- Elke keer dat home bezocht wordt krijg Larissa een andere groet, maakt het minder eentonig.
-- Radio buttons is nu een dropdown geworden.
-- Headers korter ( en als het goed is nog even duidelijk).
-- Tabben getest, werkt goed.
-- Met JS een script gemaakt wat activiteiten random maakt zodat dit steeds veranderd ( alsof er dagen voorbij gaan).
-- Waardes worden nu doorgegeven als Larissa door de stappen loopt, dit maakt het minder verwarrend.
+- Every time home is visited, Larissa receives a different greeting, which makes it less monotonous.
+- Radio buttons has now become a dropdown.
+- Headers shorter (and it should still be clear).
+- Tabben tested, works good.
+- Made a script with JS that randomizes activities so that it changes (as if days pass).
+- Values are now passed as Larissa walks through the steps, making it less confusing.
 
 
 
