@@ -13,20 +13,18 @@ The NS website is a good example of a usable website for her. And she would like
 
 ## Test 15-4
 lijstje gemaakt met vragen
-volgorder van testen gemaakt +live links erbij
-Hele diverse concepten
+volgorde van testen gemaakt +live links erbij
+Hele diverse concepten van iedereen.
 
-kan tekst skippen - > is fijn
-combobox voor maanden selectie dropbox (kan dan tikken).
-handig dat details te tabben en met pijltjes te doen zijn.
-Na een paar bezoeken onthoudt ze hoe een site in elkaar zit (aantal tabs)
-
-Leuk systeem
-zwarte achtergrond is fijn (gevoelig voor licht).
-
-Good practice:
--Korte duidelijke kopjes voor goede opbouw pagina
--Ze gebruikt veel tabs 
+Conclusie test:
+- Prototype is goed te scannen, Larissa kan snel door de tekst skippen -> is fijn.
+- Radio buttons voor maanden selectie werken ok, maar een dropdown zou beter zijn omdat ze dan kan typen (is sneller).
+- Handig dat schema details te tabben en met pijltjes te doen zijn, fijne bediening.
+- Na een paar bezoeken onthoudt ze hoe een site in elkaar zit (aantal tabs).
+- Concrete duidelijke headers zijn erg fijn, headers moet ik dus herzien.
+- Fijn dat de achtergrond donker is, Larissa is gevoelig voor licht.
+- Leuk systeem dat je steeds een vraag krijgt om bij je details te komen.
+- Larisse is fan van tabben, site hiervoor dus optimaliseren
 
 
 
