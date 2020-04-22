@@ -32,7 +32,7 @@ Conclusie test:
 - Radio buttons is nu een dropdown geworden.
 - Headers korter ( en als het goed is nog even duidelijk).
 - Tabben getest, werkt goed.
-- Met JS een script gemaakt wat activiteiten random maakt zodat dit steeds veranderd ( alsof er dagen voorbij gaan.
+- Met JS een script gemaakt wat activiteiten random maakt zodat dit steeds veranderd ( alsof er dagen voorbij gaan).
 - Waardes worden nu doorgegeven als Larissa door de stappen loopt, dit maakt het minder verwarrend.
 
 
