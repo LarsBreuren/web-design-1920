@@ -15,8 +15,29 @@ app.set('view engine', 'ejs');
 app.set('views', 'views');
 
 app.get('/', (req, res) => {
-  res.render('index', {
-    title: 'Home'
+
+  let locations = ['Anadia', 'Nederland']
+  let randomLocation = locations[Math.floor(Math.random()*locations.length)];
+
+  let event = ['Kracht', 'Baan', 'Herstel', 'Weg']
+  let  randomEvent = event[Math.floor(Math.random()*event.length)];
+
+  let layout = ['allen', 'Larissa', 'T&T', 'P&S']
+  let  randomLayout = layout[Math.floor(Math.random()*layout.length)];
+  
+  let what = ['Baangewenning', 'Sprinterswarmingup', '750m staand', 'Vrachtauto legen op de wielerbaan']
+  let  whatRandom = what[Math.floor(Math.random()*what.length)];
+
+  let verzet = ['Wegfietsen', 'Wedstrijd versnelling', 'In het huis', 'Wedstrijd']
+  let  verzetRandom = verzet[Math.floor(Math.random()*verzet.length)];
+
+ res.render('index', {
+    title: 'Home',
+    location: randomLocation,
+    event: randomEvent,
+    layout: randomLayout,
+    what: whatRandom,
+    verzet: verzetRandom
   })
 })
 app.get('/jaarplan', (req, res) => {

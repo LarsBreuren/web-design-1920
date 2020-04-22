@@ -46,7 +46,7 @@ form {
   display: flex;
   justify-content: center;
 }
-main a, .button {
+main a, .button, .contentBlock{
   color: var(--light);
   text-decoration: none;
   padding: 1em;
@@ -64,7 +64,7 @@ body a:focus {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 

@@ -1,10 +1,24 @@
 <%- include('partials/head') %>
 
-  <h1>Hi Larissa, welkom!</h1>
-  
+<h1>Hi Larissa, welkom!</h1>
 
-  <main>
-    <h2> <a href="jaarPlan"> Schema bekijken</a> </h2>
-  </main>
 
-  <%- include('partials/footer') %>
+<main>
+  <div>
+    <h2> Schema </h2>
+    <p><a href="jaarPlan"> Schema's bekijken</a></p>
+  </div>
+  <div>
+    <h2> Vandaag </h2>
+    <div class="contentBlock">
+      <p>Locatie is <%- location %></p>
+      <p>Wat ga je doen? <%- event %></p>
+      <p>De indeling is <%- layout %></p>
+      <p>Omschrijving. <%- what %></p>
+      <p>Verzet. <%- verzet %></p>
+    </div>
+  </div>
+</main>
+
+
+<%- include('partials/footer') %>
