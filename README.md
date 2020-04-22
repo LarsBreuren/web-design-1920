@@ -7,7 +7,7 @@ She loves to horseride, read alot of books and laugh.
 She is capable of using her phone and/or laptop to view data for her schedule. 
 The scheme itself however is very user unfriendly to use even when you're not blind.
 
-## Testing
+## First test
 No tests done yet, however we discussed some things that might be of interest when designing a website for her.
 The NS website is a good example of a usable website for her. And she would like to see more details in the schedule when filtering.
 
