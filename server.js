@@ -16,6 +16,9 @@ app.set('views', 'views');
 
 app.get('/', (req, res) => {
 
+  let greeting = ['Hoi Larissa! Hoe gaat het?', 'Ola Larissa!', 'Ha Larissa, welkom!', 'Hola Larissa!']
+  let randomGreeting = greeting[Math.floor(Math.random()*greeting.length)];
+
   let locations = ['Anadia', 'Amsterdam']
   let randomLocation = locations[Math.floor(Math.random()*locations.length)];
 
@@ -33,6 +36,7 @@ app.get('/', (req, res) => {
 
  res.render('index', {
     title: 'Home',
+    greeting: randomGreeting,
     location: randomLocation,
     event: randomEvent,
     layout: randomLayout,
