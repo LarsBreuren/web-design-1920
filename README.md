@@ -12,11 +12,11 @@ No tests done yet, however we discussed some things that might be of interest wh
 The NS website is a good example of a usable website for her. And she would like to see more details in the schedule when filtering.
 
 ## Test 15-4
-lijstje gemaakt met vragen
-volgorde van testen gemaakt +live links erbij
-Hele diverse concepten van iedereen.
+Made a list with questions.
+order of tests made + live links included.
+Very diverse concepts from everyone.
 
-Conclusie test:
+Conclusion test:
 - Prototype is easy to scan, Larissa can quickly skip through the text -> is fine.
 - Radio buttons for months selection work ok, but a dropdown would be better because she can type to navigate (faster).
 - Handy that you can navigate with arrow keys and tabs trough the scedule details
@@ -27,7 +27,7 @@ Conclusie test:
 - Larisse is a fan of tabbing, so optimize the site for this
 
 
-## Aanpassingen na test 15-4
+##  Adjustments after test 15-4
 - Every time home is visited, Larissa receives a different greeting, which makes it less monotonous.
 - Radio buttons has now become a dropdown.
 - Headers shorter (and it should still be clear).
