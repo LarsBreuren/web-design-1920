@@ -25,10 +25,12 @@ Conclusion test:
 - Nice that the background is dark, Larissa is sensitive to light.
 - Question-steps system to get to details works nice and is creative.
 - Larisse is a fan of tabbing, so optimize the site for this
+- some text was read in english and some in dutch.
 
 
 ##  Adjustments after test 15-4
 - Every time home is visited, Larissa receives a different greeting, which makes it less monotonous.
+- Fixed the language issue were some text was dutch and some was english.
 - Radio buttons has now become a dropdown.
 - Headers shorter (and it should still be clear).
 - Tabben tested, works good.
