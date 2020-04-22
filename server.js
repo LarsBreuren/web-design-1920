@@ -16,6 +16,18 @@ app.set('views', 'views');
 
 app.get('/', (req, res) => {
 
+  var now = new Date();
+  var days = new Array("Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag");
+  var months = new Array("januari","februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december");
+  var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+  function fourdigits(number) {
+      return (number < 1000) ? number + 1900 : number;
+  }
+  today = days[now.getDay()] + " " +
+               date + " " +
+               months[now.getMonth()] + " " +
+                 (fourdigits(now.getYear())) ; //https://sitecoach.alphamega.nl/SiteCoach/actuele-datum-op-je-site
+
   let greeting = ['Hoi Larissa! Hoe gaat het?', 'Ola Larissa!', 'Ha Larissa, welkom!', 'Hola Larissa!']
   let randomGreeting = greeting[Math.floor(Math.random()*greeting.length)];
 
@@ -36,6 +48,7 @@ app.get('/', (req, res) => {
 
  res.render('index', {
     title: 'Home',
+    today: today,
     greeting: randomGreeting,
     location: randomLocation,
     event: randomEvent,
@@ -50,16 +63,15 @@ app.get('/jaarplan', (req, res) => {
   })
 })
 
+let randomLocation = '';
+let randomLocation2 = '';
+let activiteitRandom = '';
+let activiteitRandom2 = '';
+
 app.post('/maandactiviteit', (req, res) => {
 
-  let locations = ['Anadia', 'Amsterdam', 'Tokyo']
-  let randomLocation = locations[Math.floor(Math.random()*locations.length)];
-  let randomLocation2 = locations[Math.floor(Math.random()*locations.length)];
-
-  let activiteit = ['Wegfietsen', 'Wedstrijd versnelling', 'In het huis', 'Wedstrijd']
-  let activiteitRandom = activiteit[Math.floor(Math.random()*activiteit.length)];
-  let activiteitRandom2 = activiteit[Math.floor(Math.random()*activiteit.length)];
-
+  setRandomActivities();
+  
   res.render('maandactiviteit', {
     title: 'Maandactiviteit',
     locatie: randomLocation,
@@ -70,11 +82,27 @@ app.post('/maandactiviteit', (req, res) => {
   })
 })
 app.get('/details', (req, res) => {
+  console.log(req.body.loc);
   res.render('details', {
-    title: 'Details'
+    title: 'Details',
+    locatie: randomLocation,
+    locatie2: randomLocation2,
+    activiteit: activiteitRandom,
+    activiteit2: activiteitRandom2,
   })
 })
 
 const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
+function setRandomActivities(){
+  let locations = ['Anadia', 'Amsterdam', 'Tokyo']
+   randomLocation = locations[Math.floor(Math.random()*locations.length)];
+   randomLocation2 = locations[Math.floor(Math.random()*locations.length)];
+
+  let activiteit = ['Wegfietsen', 'Wedstrijd versnelling', 'In het huis', 'Wedstrijd']
+   activiteitRandom = activiteit[Math.floor(Math.random()*activiteit.length)];
+   activiteitRandom2 = activiteit[Math.floor(Math.random()*activiteit.length)];
+}
