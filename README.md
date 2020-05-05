@@ -15,6 +15,7 @@ The NS website is a good example of a usable website for her. And she would like
 Made a list with questions.
 order of tests made + live links included.
 Very diverse concepts from everyone.
+Larissa had her webcam & screenshare turned on.
 
 ### Conclusion test:
 - Prototype is easy to scan, Larissa can quickly skip through the text -> is fine.
