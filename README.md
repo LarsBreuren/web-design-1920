@@ -12,9 +12,9 @@
   4. navigate to localhost:3000
   
   ##Testing
--[Test 1](https://github.com/LarsBreuren/web-design-1920/wiki/Test-1)
--[Test 2](https://github.com/LarsBreuren/web-design-1920/wiki/Test-2)
--[Test 3](https://github.com/LarsBreuren/web-design-1920/wiki/Test-3)
+- [Test 1](https://github.com/LarsBreuren/web-design-1920/wiki/Test-1)
+- [Test 2](https://github.com/LarsBreuren/web-design-1920/wiki/Test-2)
+- [Test 3](https://github.com/LarsBreuren/web-design-1920/wiki/Test-3)
   
 [Exclusive design principles](  https://github.com/LarsBreuren/web-design-1920/wiki/Exclusive-design-principles)
 
