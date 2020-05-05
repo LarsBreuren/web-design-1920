@@ -16,7 +16,7 @@ Made a list with questions.
 order of tests made + live links included.
 Very diverse concepts from everyone.
 
-Conclusion test:
+### Conclusion test:
 - Prototype is easy to scan, Larissa can quickly skip through the text -> is fine.
 - Radio buttons for months selection work ok, but a dropdown would be better because she can type to navigate (faster).
 - Handy that you can navigate with arrow keys and tabs trough the scedule details
@@ -36,6 +36,21 @@ Conclusion test:
 - Tabben tested, works good.
 - Made a script with JS that randomizes activities so that it changes (as if days pass).
 - Values are now passed as Larissa walks through the steps, making it less confusing.
+
+## Test 22 april 
+Same setup as last week->
+- Made a list with question
+- Order of who goes first etc.
+- Larissa turns on screen share
+- Larissa had her webcam turned off because she just came back from a training session.
+
+### Conclusion test
+- Larissa really liked the improved flow of the website, she could find things very fast.
+- Larissa likes the adjusted headers, short and clear. Thats good.
+- She likes that i've put the navigation below the content since it's not that important to her.
+- She would prefer to see a bit more data on the homepage then just today and schema. Something like an overview of important data.
+
+Overal pretty happy with the new layout.
 
 
 
