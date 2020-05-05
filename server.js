@@ -62,6 +62,11 @@ app.get('/jaarplan', (req, res) => {
     title: 'Jaarplan'
   })
 })
+app.get('/events', (req, res) => {
+  res.render('events', {
+    title: 'Evenementen'
+  })
+})
 
 let randomLocation = '';
 let randomLocation2 = '';
