@@ -40,9 +40,9 @@ Larissa had her webcam & screenshare turned on.
 
 ## Test 22 april 
 Same setup as last week->
-- Made a list with question
+- Made a list with questions
 - Order of who goes first etc.
-- Larissa turns on screen share
+- Larissa turned on screen share
 - Larissa had her webcam turned off because she just came back from a training session.
 
 ### Conclusion test
